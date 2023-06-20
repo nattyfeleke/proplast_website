@@ -22,40 +22,40 @@
                   <div class="column">
                     <div class="box-column">
                       <div class="box">
-                        <label for="the-name">Your Name</label>
+                        <label for="firstname">First Name</label>
                       </div>
-                      <input type="text" name="name" id="the-name" />
+                      <input type="text" name="firstname" id="firstname" />
                     </div>
 
                     <div class="box-column">
                       <div class="box">
-                        <label for="the-name">Last Name</label>
+                        <label for="lastname">Last Name</label>
                       </div>
-                      <input type="text" name="name" id="the-name" />
+                      <input type="text" name="lastname" id="lastname" />
                     </div>
                     <div class="box-column">
                       <div class="box">
-                        <label for="the-name">Email</label>
+                        <label for="email">Email</label>
                       </div>
-                      <input type="email" name="email" id="the-email" />
+                      <input type="email" name="email" id="email" />
                     </div>
 
                     <div class="box-column">
                       <div class="box">
-                        <label for="the-name">Phone Number</label>
+                        <label for="phone">Phone Number</label>
                       </div>
-                      <input type="tel" name="phone" id="the-phone" />
+                      <input type="tel" name="phone" id="phone" />
                     </div>
                   </div>
                   <div class="box-column">
                     <div class="box">
-                      <label for="the-name">Messages</label>
+                      <label for="message">Messages</label>
                     </div>
-                    <textarea name="message" id="the-message"></textarea>
+                    <textarea name="message" id="message"></textarea>
                   </div>
 
                   <div class="submit-buttons">
-                    <a class="btn btn-secondary" href="#">Submit</a>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
                   </div>
                 </form>
               </div>
@@ -131,9 +131,40 @@
   
   <style></style>
   <script>
+  import axios from "axios";
   import Footer from "../components/Footer.vue";
   export default {
     components: { Footer },
+    mounted(){
+       // Get a reference to the HTML form element
+const form = document.querySelector('form');
+console.log('form')
+console.log(form)
+// Add a listener to the submit event of the form
+form.addEventListener('submit', (event) => {
+  // Prevent the default form submission behavior 
+  event.preventDefault();
+
+  const firstname = document.querySelector('#firstname').value;
+  const lastname = document.querySelector('#lastname').value;
+  const email = document.querySelector('#email').value;
+  const phone = document.querySelector('#phone').value;
+  const message = document.querySelector('#message').value;
+
+  // Create an object with the input values as properties
+  const formData = {
+    firstname,lastname,email,phone,message
   };
+
+  // Log the form data to the console (for testing purposes)
+  console.log(formData);
+//  axios.post()
+  // Submit the form using the submit() method on the form element
+//   form.submit();
+});
+    }
+  };
+ 
+ 
   </script>
   
