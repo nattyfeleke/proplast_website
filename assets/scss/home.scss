@@ -213,7 +213,7 @@
     left: 0;
     cursor: pointer;
     opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
+    z-index: 1; /* and place it over the hamburger */
 
     -webkit-touch-callout: none;
   }
@@ -2188,7 +2188,7 @@ footer {
           margin-top: 5rem;
           .box-column {
             margin-top: 1rem;
-
+            
             .box {
               background: #fff;
               position: absolute;
@@ -2213,6 +2213,7 @@ footer {
               background-color: #fff;
               border: solid 1px #876745;
               resize: vertical;
+              padding-top: 1rem;
             }
             textarea {
               min-height: 180px;
@@ -2224,6 +2225,7 @@ footer {
             // right: 0;
             display: flex;
             justify-content: right;
+          
           }
         }
         .line {
@@ -2553,4 +2555,50 @@ quote {
   font-size: .8rem;
   font-weight: 600;
   color: #523513;
+}
+
+.btn-disabled {
+  background-color: #886339;
+  cursor: not-allowed;
+}
+.notification {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  padding: 8px 16px;
+  z-index:100000;
+  border-radius: 4px;
+  
+}
+.notification-success {
+  background-color: rgb(38, 170, 82);
+}
+.notification-error {
+  background-color: rgb(204, 65, 0);
+  color: white!important;
+}
+.msg-sent,.msg-notsent{
+  display: flex ;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tick,.warn { 
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 9999px;
+  transition: .6s ease;
+}
+.tick {
+  border: 1px solid white;
+}
+.tick svg {
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.hidden {
+  display: none;
+}
+.not-visible{
+  opacity: 0;
 }
