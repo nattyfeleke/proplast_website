@@ -93,6 +93,17 @@
         letter-spacing: 0.1em;
         line-height: 1.3rem;
       }
+      ol {
+        color: #ebe5d9;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        list-style-type: none;
+        margin-top: 1rem;
+      }
+      li {
+        margin-bottom: 1rem;
+      }
     }
   }
 }
@@ -100,6 +111,7 @@
   .gallery-wrapper {
     display: grid;
     place-items: center;
+
     @include responsive($md) {
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -107,6 +119,7 @@
       @include responsive($md) {
         width: 30rem;
         object-fit: cover;
+        margin-bottom: 1rem;
       }
     }
   }

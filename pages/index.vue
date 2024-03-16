@@ -48,15 +48,24 @@
       <section class="about-us row-max-grid">
         <div class="container">
           <div class="about-wrapper">
-            <img src="../assets/img/2.jpg" alt="" />
+            <img src="../assets/img/place3.jpg" alt="" />
             <div class="desc-about">
               <h2><b>PROPLAST PIPE AND FITTING MANUFACTURING</b></h2>
               <p>
                 <br />
-                is a private company established with a capital of 60 million
-                birr in 2013 in E.C at Gondar to manufacture high quality uPVC
-                Pipes, PPR Pipes,HDPE Pipes,uPVC FITTINGS, PPR FITTINGS
+                is Private owned enterprise which was established by thousand
+                million Ethiopian birr as initial Capital in July, 29, 2013
+                E.C/August 5 2021 GC. The owner has successful and versatile
+                experience in trading and also manufacturing worldwide for
+                decades. The main objective of the company is production and
+                sales of plastic related construction, packaging, and household
+                materials.
               </p>
+              <div class="pdf-holder">
+                <a :href="pdfPath" target="_blank">
+                  <button class="btn btn-secondary">COMPANY PROFILE</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -65,12 +74,9 @@
         <div class="container">
           <div class="wrapper">
             <p>
-              We are manufacturer, supplier, and trader company offering
-              top-notch industrial pipes and fittings. Our staff is focused on
-              providing exceptional services.Proplast is a private company
-              established with a capital of 60 million birr in 2013 in E.C at
-              Gondar to manufacture high quality uPVC Pipes, PPR Pipes,HDPE
-              Pipes,uPVC FITTINGS, PPR FITTINGS
+              The factory is located in Amhara Region Gondar, Azezo, Tseda
+              industry zone No-2. The company is upgrading and expansion works
+              to assure better customer satisfaction and business development.
             </p>
             <button class="btn btn-secondary">CONTACT US</button>
           </div>
@@ -85,10 +91,10 @@
           </ul>
         </div>
       </section>
-      <section class="product-all-list">
-        <div class="list">
-          <div class="container">
-            <div class="single-list">
+      <section class="product-all-list-old">
+        <div class="list-old">
+          <div class="container-old">
+            <div class="single-list-old">
               <img src="../assets/img/HDPEPIPES.png" alt="" />
               <h4>HDPE PIPES</h4>
               <p>
@@ -97,7 +103,7 @@
                 transport.
               </p>
             </div>
-            <div class="single-list">
+            <div class="single-list-old">
               <img src="../assets/img/upvc.webp" alt="" />
               <h4>UPVC PIPES</h4>
               <p>
@@ -105,14 +111,14 @@
                 to their excellent tensile and impact strength. 
               </p>
             </div>
-            <div class="single-list">
+            <div class="single-list-old">
               <img src="../assets/img/PPRFITTINGS.jpg" alt="" />
               <h4>PPR FITTINGS</h4>
               <p>
                 are fittings in the development of cold and hot water systems.
               </p>
             </div>
-            <div class="single-list">
+            <div class="single-list-old">
               <img src="../assets/img/upvc.jpg" alt="" />
               <h4>UPVC FITTINGS</h4>
               <p>
@@ -122,7 +128,7 @@
                 "unplasticized."
               </p>
             </div>
-            <div class="single-list">
+            <div class="single-list-old">
               <img src="../assets/img/ppr.jpg" alt="" />
               <h4>PPR PIPES</h4>
               <p>
@@ -130,7 +136,7 @@
                 constructed from this substance.
               </p>
             </div>
-            <div class="single-list">
+            <div class="single-list-old">
               <img src="../assets/img/condi.jpg" alt="" />
               <h4>Conduits</h4>
               <p>
@@ -146,18 +152,18 @@
         <h3 class="section-title"><span>New</span><b>Arrivals</b></h3>
         <div class="content">
           <a class="video-item">
-            <p class="video-title">HDPE PIPES</p>
+            <p class="video-title">Coild HDPE Pipe</p>
             <span class="video-icon"></span>
             <img src="../assets/img/HDPEPIPES2.jpg" alt="" />
           </a>
           <a class="video-item">
-            <p class="video-title">PPR FITTINGS</p>
+            <p class="video-title">P-PR Fittings</p>
             <span class="video-icon"></span>
             <img src="../assets/img/PPRFITTINGS.jpg" alt="" />
           </a>
 
           <a class="video-item">
-            <p class="video-title">PVC</p>
+            <p class="video-title">Uncoid HDPE Pipes</p>
             <span class="video-icon"></span>
             <img src="../assets/img/proplast2.jpg" alt="" />
           </a>
@@ -245,7 +251,7 @@
             <div class="location">
               <div class="map-responsive">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62299.41569535554!2d37.421428505145286!3d12.601125321440048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164328823d244edf%3A0x7826245358a8a65!2sGondar!5e0!3m2!1sen!2set!4v1665662658516!5m2!1sen!2set"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d589.0101285766021!2d37.44025221288019!3d12.485934200064754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDI5JzA5LjYiTiAzN8KwMjYnMjQuNSJF!5e1!3m2!1sen!2set!4v1710592572312!5m2!1sen!2set"
                   width="600"
                   height="450"
                   style="border: 0"
@@ -269,6 +275,11 @@ import Contactus from "../components/Contactus.vue";
 import Nav from "../components/Nav.vue";
 export default {
   name: "IndexPage",
+  data() {
+    return {
+      pdfPath: "./ProplastCompanyProfile2024.pdf", // Adjust the path as needed
+    };
+  },
   mounted() {
     window.addEventListener("load", (event) => {
       const arrowNext = document.querySelector(".button-next"),
