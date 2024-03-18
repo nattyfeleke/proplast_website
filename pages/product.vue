@@ -16,10 +16,11 @@
           <div class="text-desc">
             <h2>New Products</h2>
             <p>
-              PROPLAST PIPE AND FITTING MANUFACTURING is a private company
-              established with a capital of 60 million birr in 2013 in E.C at
-              Gondar to manufacture high quality uPVC Pipes, PPR Pipes,HDPE
-              Pipes,uPVC FITTINGS, PPR FITTINGS
+              The Company is producing quality plastic product by using modern
+              production techniques through the creation of employment and
+              saving the foreign currency reserve of the country .The factory is
+              managed by qualified engineers and administrative workers
+              specialized in all aspects of manufacturing work.
             </p>
           </div>
           <img src="../assets/img/proplast2.jpg" alt="" />
@@ -37,77 +38,55 @@
         <div class="list">
           <div class="container">
             <div class="single-list">
+              <img class="img-tab" src="../assets/img/HDPEPIPES.png" alt="" />
+              <h3>HDPE PIPES</h3>
+              <p>
+                HDPI pipes which PPI produced is manufactured from high degree
+                of impact resistance and are robust and ductile. HDPE pipes have
+                the ability to absorb pressure surges which make the superior to
+                other plastic materials.PPI mainly using PE100 with highest
+                specific weight. PPI HDPE pipes are produced in accordance to
+                ESISO4427 to meet the required standard.
+              </p>
+            </div>
+            <div class="single-list">
+              <img src="../assets/img/HDptable.png" alt="" />
+            </div>
+            <!-- <div class="single-list">
               <img src="../assets/img/HDPEPIPES.png" alt="" />
-              <h4>HDPE PIPES</h4>
-              <p>
-                are ageing concrete or steel mains pipes are frequently replaced
-                , a flexible plastic pipe type utilized for fluid and gas
-                transport.
-              </p>
-            </div>
-            <div class="single-list">
-              <h3>OD 20</h3>
-              <h3>OD 25</h3>
-              <h3>OD 32</h3>
-              <h3>OD 40</h3>
-              <h3>OD 50</h3>
-            </div>
-            <div class="single-list">
-              <h3>OD 63</h3>
-              <h3>OD 75</h3>
-              <h3>OD 90</h3>
-              <h3>OD 11 0</h3>
+
               <button class="btn btn-secondary row-max-grid">
                 <a href="./order"> Order Now</a>
               </button>
-            </div>
+            </div> -->
             <div class="single-list">
-              <img src="../assets/img/upvc.webp" alt="" />
-              <h4>UPVC PIPES</h4>
+              <img class="img-tab" src="../assets/img/upvc.webp" alt="" />
+              <h3>UPVC PIPES</h3>
               <p>
-                are a durable option for all kinds of plumbing applications,Due
-                to their excellent tensile and impact strength. 
+                Fully compliant to the ISO 1452 standards.PVC is one of the
+                oldest plastic resins and it’s globally the second most used
+                resin below ethylene. Unlike HDPE PVC cannot be processed in its
+                pure form and additives need to be added and then blended to
+                increase its heat stability and other characteristics.  
               </p>
             </div>
             <div class="single-list">
-              <h4>PN4</h4>
-              <h3>OD 50</h3>
-              <h3>OD 75</h3>
-              <h3>OD 90</h3>
-              <h3>OD 110</h3>
-              <h3>OD 125</h3>
-              <h3>OD 160</h3>
+              <img src="../assets/img/u-pvsTable.png" alt="" />
             </div>
             <div class="single-list">
-              <h4>PN6</h4>
-              <h3>OD 75</h3>
-              <h3>OD 90</h3>
-              <h3>OD 110</h3>
-              <h3>OD 125</h3>
-              <h3>OD 160</h3>
-              <button class="btn btn-secondary row-max-grid">
-                <a href="./order"> Order Now</a>
-              </button>
-            </div>
-            <div class="single-list">
-              <img src="../assets/img/PPRFITTINGS.jpg" alt="" />
-              <h4>PPR FITTINGS</h4>
+              <img class="img-dsc" src="../assets/img/PPRFITTINGS.jpg" alt="" />
+              <h3>PPR FITTINGS</h3>
               <p>
-                are fittings in the development of cold and hot water systems.
+                We Produces a complete range of polypropylene (PPR) pipes for
+                cold and hot water distribution system for household ,portable
+                water and buildings.PPI PPR pipes are made from PP random
+                copolymer (PP-R or R 200P) granules which have excellent heat
+                resistance ,physical and chemical properties to suit application
+                of portable water distribution and heating system.
               </p>
             </div>
             <div class="single-list">
-              <h3>OD 20</h3>
-              <h3>OD 25</h3>
-              <h3>OD 32</h3>
-            </div>
-            <div class="single-list">
-              <h3>OD 40</h3>
-              <h3>OD 50</h3>
-              <h3>OD 63</h3>
-              <button class="btn btn-secondary row-max-grid">
-                <a href="./order"> Order Now</a>
-              </button>
+              <img src="../assets/img/pprpipe.png" alt="" />
             </div>
             <div class="single-list">
               <img src="../assets/img/upvc.jpg" alt="" />

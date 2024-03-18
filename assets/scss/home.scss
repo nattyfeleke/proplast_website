@@ -394,6 +394,11 @@
         margin-top: 0rem;
       }
     }
+    .pdf-holder {
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center;
+    }
   }
 }
 .wrapper {
@@ -2551,8 +2556,8 @@ quote {
 .order-now {
   margin-top: 5rem;
 }
-.product-option{
-  font-size: .8rem;
+.product-option {
+  font-size: 0.8rem;
   font-weight: 600;
   color: #523513;
 }

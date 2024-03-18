@@ -14,16 +14,22 @@
       <div class="container">
         <!-- <h2>Our Story</h2> -->
         <p>
-          PROPLAST PIPE AND FITTING MANUFACTURING is a private company
-          established with a capital of 60 million birr in 2013 in E.C at Gondar
-          to manufacture high quality uPVC Pipes, PPR Pipes,HDPE Pipes,uPVC
-          FITTINGS, PPR FITTINGS
+          PROPLAST PIPE AND FITTING MANUFACTURING INDUSTRY is Private owned
+          enterprise which was established by thousand million Ethiopian birr as
+          initial Capital in July, 29, 2013 E.C/August 5 2021 GC. The owner has
+          successful and versatile experience in trading and also manufacturing
+          worldwide for decades. The main objective of the company is production
+          and sales of plastic related construction, packaging, and household
+          materials. The factory is located in Amhara Region Gondar, Azezo,
+          Tseda industry zone No-2. The company is upgrading and expansion works
+          to assure better customer satisfaction and business development.
         </p>
         <p>
-          A private firm named PROPLAST Pipe and Fitting Manufacturing was
-          founded at Gondar with a capital of 60 million Birr to produce high
-          quality uPVC Pipes, PPR Pipes, HDPE Pipes, and uPVC Fittings. PPR
-          Fittings, Fittings
+          The Company is producing quality plastic product by using modern
+          production techniques through the creation of employment and saving
+          the foreign currency reserve of the country .The factory is managed by
+          qualified engineers and administrative workers specialized in all
+          aspects of manufacturing work
         </p>
       </div>
     </section>
@@ -47,16 +53,53 @@
             builders
           </p>
         </div>
+        <div class="mission">
+          <img src="../assets/img/badge.svg" alt="" />
+          <h4>Quality Policy</h4>
+          <p>
+            PROPLAST PIPE AND FITTING MANUFACTURING industry is committed to
+            enhance customer satisfaction by delivering and providing quality
+            plastic pipe product and fittings that meet the requirements of our
+            esteemed customers through the application of ISO 9001:2015 QMS &
+            the relevant statutory and regulatory requirements
+          </p>
+        </div>
+        <div class="mission">
+          <img src="../assets/img/values.svg" alt="" />
+          <h4>Our Values</h4>
+          <ol>
+            <li>Loyalty</li>
+            <li>Accountability</li>
+            <li>Team work</li>
+            <li>Proper use of resource</li>
+            <li>Time Management</li>
+            <li>Owner ship emotion</li>
+          </ol>
+        </div>
       </div>
     </section>
     <section class="gallery row-max-grid">
       <div class="gallery-wrapper">
-        <img src="../assets/img/1.jpg" alt="" />
-        <img src="../assets/img/2.jpg" alt="" />
-        <img src="../assets/img/9.jpg" alt="" />
-        <img src="../assets/img/4.jpg" alt="" />
-        <img src="../assets/img/5.jpg" alt="" />
-        <img src="../assets/img/6.jpg" alt="" />
+        <img src="../assets/img/machine4.jpg" alt="" />
+        <img src="../assets/img/machine6.jpg" alt="" />
+        <img src="../assets/img/machine1.jpg" alt="" />
+        <img src="../assets/img/machine2.jpg" alt="" />
+        <img src="../assets/img/machine7.jpg" alt="" />
+        <img src="../assets/img/machine-proplast.jpg" alt="" />
+
+        <img src="../assets/img/office1.jpg" alt="" />
+        <img src="../assets/img/office2.jpg" alt="" />
+        <img src="../assets/img/office4.jpg" alt="" />
+        <img src="../assets/img/place1.jpg" alt="" />
+        <img src="../assets/img/place2.jpg" alt="" />
+        <img src="../assets/img/place3.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="gallery row-max-grid">
+      <div class="gallery-wrapper">
+        <img src="../assets/img/team 1.jpg" alt="" />
+        <img src="../assets/img/team3.jpg" alt="" />
       </div>
     </section>
     <Footer />
